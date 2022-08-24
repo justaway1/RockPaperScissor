@@ -13,12 +13,12 @@ body {
     justify-content: center;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.716);
-    padding: 20px;
+    padding: 25px;
 }
 
 .title--header {
-    font-size: 3rem;
-    word-spacing: -0.5rem;
+    font-size: 4rem;
+    letter-spacing: -0.3rem;
     font-family: 'Silkscreen', cursive;
     color: rgba(244, 244, 35, 0.874)
 }
