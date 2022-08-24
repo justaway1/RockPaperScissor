@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="mainstyle.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://use.fontawesome.com/21c0a17d04.js"></script>
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Roboto+Condensed&family=Silkscreen:wght@700&display=swap"
         rel="stylesheet">
@@ -21,25 +22,30 @@
         </header>
 
         <div class="main--content">
-            <p class="result">You Won!</p>
+            <div class="main--result">
+                <h2 class="result">Choose your weapon!</h2>
+                <p class="result">First to score 5 points, wins the game!</p>
+            </div>
             <div class="result--images">
                 <img src="./images/paper (2).png" class="result--image">
                 <img src="./images/scissor.png" class="result--image">
             </div>
             <div class="result--score">
-                <p class="result-human">Point: 1</p>
-                <p class="result-computer">Point: 0</p>
+                <p class="result-human">Human Score: 1</p>
+                <p class="result-computer">Computer Score: 0</p>
             </div>
             <div class="main--logic">
-                <img src="./images/RockPIC.png" alt="" class="result--image">
-                <img src="./images/paper (2).png" alt="" class="result--image">
-                <img src="./images/scissor.png" alt="" class="result--image">
+                <img src="./images/RockPIC.png" alt="" class="result--image--logic">
+                <img src="./images/paper (2).png" alt="" class="result--image--logic--paper">
+                <img src="./images/scissor.png" alt="" class="result--image--logic">
             </div>
             <footer class="main--footer">
-                <p class="footer">Copyright &copy; Stan Angelov 2022 </p>
+                <p class="footer">Copyright &copy; 2022 Stan Angelov</p>
             </footer>
         </div>
     </div>
+
+    <script src="mainscript.js"></script>
 </body>
 
 </html>

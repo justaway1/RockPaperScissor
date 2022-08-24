@@ -5,7 +5,17 @@
 }
 
 body {
-    background-color: rgb(61, 59, 59)
+    background-color: rgb(61, 59, 59);
+    font-family: Roboto, "Helvetica Neue"
+}
+
+i {
+    color: #fff;
+    font-size: 1rem;
+}
+
+img {
+    width: 10%;
 }
 
 .main--header {
@@ -21,4 +31,79 @@ body {
     letter-spacing: -0.3rem;
     font-family: 'Silkscreen', cursive;
     color: rgba(244, 244, 35, 0.874)
+}
+
+.main--content {
+    margin: 30px auto;
+}
+
+.main--result {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.4;
+    align-items: center;
+    color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.result--images {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.result--score {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    align-items: center;
+    color: rgba(244, 244, 35, 0.874);
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+
+}
+
+.result-human, .result-computer {
+    padding: 10px;
+    border: 1px solid rgba(244, 244, 35, 0.874);
+    border-radius: 2px;
+}
+
+.main--logic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    
+}
+.result--image--logic--paper {
+    background-color: rgba(37, 32, 32, 0.369);
+    border-radius: 10px;
+    padding: 30px 30px;
+}
+
+.main--logic > img:hover {
+    background-color: rgba(123, 121, 121, 0.253);
+    cursor: pointer;
+}
+
+.result--image--logic {
+    padding: 20px 30px;
+    border-radius: 10px;
+    background-color: rgba(37, 32, 32, 0.369);
+}
+
+.main--footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    padding: 10px;
+    color: #fff;
+    background-color: black;
+    font-size: 1.2rem;
 }
