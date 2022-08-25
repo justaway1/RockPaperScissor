@@ -51,7 +51,7 @@ img {
 .result--images {
     display: flex;
     justify-content: center;
-    gap: 150px;
+    gap: 250px;
     align-items: center;
     margin-bottom: 25px;
 }
@@ -78,15 +78,16 @@ img {
     align-items: center;
     justify-content: center;
     gap: 50px;
-    
+
 }
+
 .result--image--logic--paper {
     background-color: rgba(37, 32, 32, 0.369);
     border-radius: 10px;
     padding: 30px 30px;
 }
 
-.main--logic > img:hover {
+.main--logic>img:hover {
     background-color: rgba(123, 121, 121, 0.253);
     cursor: pointer;
 }
@@ -106,4 +107,10 @@ img {
     color: #fff;
     background-color: black;
     font-size: 1.2rem;
+}
+
+.choose-weapon {
+    font-size: 7rem;
+    color: rgba(255, 255, 255, 0.473);
+    font-weight: bolder;
 }
