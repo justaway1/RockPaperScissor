@@ -15,7 +15,7 @@ i {
 }
 
 img {
-    width: 10%;
+    width: 40%;
 }
 
 .main--header {
@@ -45,15 +45,16 @@ img {
     align-items: center;
     color: #fff;
     font-size: 1.5rem;
-    margin-bottom: 30px;
 }
 
 .result--images {
     display: flex;
     justify-content: center;
-    gap: 250px;
     align-items: center;
-    margin-bottom: 25px;
+    width: 50%;
+    gap: 250px;
+    padding: 10px;
+    margin: 5px auto;
 }
 
 .result--score {
@@ -63,13 +64,12 @@ img {
     align-items: center;
     color: rgba(244, 244, 35, 0.874);
     font-size: 1.2rem;
-    margin-bottom: 40px;
 
 }
 
 .result-human, .result-computer {
+    margin-top: 10px;
     padding: 10px;
-    border: 1px solid rgba(244, 244, 35, 0.874);
     border-radius: 2px;
 }
 
@@ -78,12 +78,14 @@ img {
     align-items: center;
     justify-content: center;
     gap: 50px;
+    margin: 30px 30px;
 
 }
 
 .result--image--logic--paper {
     background-color: rgba(37, 32, 32, 0.369);
     border-radius: 10px;
+    width: 10%;
     padding: 30px 30px;
 }
 
@@ -95,6 +97,7 @@ img {
 .result--image--logic {
     padding: 20px 30px;
     border-radius: 10px;
+    width: 10%;
     background-color: rgba(37, 32, 32, 0.369);
 }
 
@@ -113,4 +116,11 @@ img {
     font-size: 7rem;
     color: rgba(255, 255, 255, 0.473);
     font-weight: bolder;
+}
+
+
+.rockImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
