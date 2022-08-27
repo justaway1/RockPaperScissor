@@ -130,3 +130,11 @@ img {
     font-weight: bolder;
     margin: 0 120px;
 }
+
+
+.result-bored {
+    background-color: #fff;
+    color: black;
+    padding: 5px 5px;
+    border-radius: 10px;
+}
