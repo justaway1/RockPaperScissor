@@ -26,9 +26,11 @@ function computerChoice() {
 let playerScore = 0;
 let computerScore = 0;
 
+
 //ROCK EVENT HANDLER
 function handleRock(e, cpuChoice) {
     cpuChoice = computerChoice();
+
 
     if (e.target === rock) {
         humanWeapon.innerHTML = "<img src='./images/rock.png'>"
@@ -49,6 +51,7 @@ function handleRock(e, cpuChoice) {
         computerScore++;
         cpuScore.innerHTML = `Computer Score: ${computerScore}`;
 
+
     } if (cpuChoice === 3) {
         cpuWeapon.innerHTML = "<img src='./images/scissor.png'>"
         cpuWeapon.classList.add('selectedImage');
@@ -56,7 +59,9 @@ function handleRock(e, cpuChoice) {
         playerScore++;
         resultWithWhat.innerHTML = `Rock beats Scissors!`
         humanScore.innerHTML = `Human Score: ${playerScore}`;
+
     }
+
 
 }
 
@@ -74,7 +79,7 @@ function handlePaper(e, cpuChoice) {
         result.innerHTML = `You Won!`
         playerScore++;
         resultWithWhat.innerHTML = `Paper beats Rock!`
-        humanScore.innerHTML = `Human Score ${playerScore}`
+        humanScore.innerHTML = `Human Score: ${playerScore}`
 
     } else if (cpuChoice === 2) {
         cpuWeapon.innerHTML = "<img src='./images/paper.png'>"
@@ -86,12 +91,15 @@ function handlePaper(e, cpuChoice) {
         cpuWeapon.innerHTML = "<img src='./images/scissor.png'>"
         cpuWeapon.classList.add('selectedImage');
         result.innerHTML = `You Lost!`
+        computerScore++
         resultWithWhat.innerHTML = `Scissors beats Paper!`
+        cpuScore.innerHTML = `Computer Score: ${computerScore}`
     }
+
 }
 
 //SCISSOR EVENT HANDLER
-function handleScissor(e) {
+function handleScissor(e, cpuChoice) {
     cpuChoice = computerChoice();
 
     if (e.target === scissor) {
@@ -102,13 +110,17 @@ function handleScissor(e) {
         cpuWeapon.innerHTML = "<img src='./images/rock.png'>"
         cpuWeapon.classList.add('selectedImage');
         result.innerHTML = `You Lost!`
+        computerScore++
         resultWithWhat.innerHTML = `Rock beats Scissors!`
+        cpuScore.innerHTML = `Computer Score: ${computerScore}`
 
     } else if (cpuChoice === 2) {
         cpuWeapon.innerHTML = "<img src='./images/paper.png'>"
         cpuWeapon.classList.add('selectedImage');
         result.innerHTML = `You Won!`
+        playerScore++;
         resultWithWhat.innerHTML = `Scissors beats Paper!`
+        humanScore.innerHTML = `Human Score: ${playerScore}`
 
     } else if (cpuChoice === 3) {
         cpuWeapon.innerHTML = "<img src='./images/scissor.png'>"
@@ -116,6 +128,8 @@ function handleScissor(e) {
         result.innerHTML = `It's a Tie!`
         resultWithWhat.innerHTML = `Scissors with Scissors!`
     }
+
 }
+
 
 
