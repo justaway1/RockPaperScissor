@@ -10,4 +10,4 @@
  - JS
 
 
-<h1>Live demo [here](</h1>
+**Live demo [here](https://justaway1.github.io/RockPaperScissor/)**
