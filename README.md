@@ -15,4 +15,4 @@
 You can play as much as you want, there is no end to it!
 Until you are bored of clicking **mindlessly!**
 
-//Happy Coding//.
+//Happy Coding//..
