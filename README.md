@@ -7,7 +7,7 @@
 **Tech Used:**
  - HTML5
  - CSS3
- - JS
+ - JS.....
 
 
 **Live demo [here](https://justaway1.github.io/RockPaperScissor/)**
